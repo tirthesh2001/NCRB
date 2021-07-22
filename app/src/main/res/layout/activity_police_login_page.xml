@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regular"
+    tools:context=".Police_Login_Page">
+
+    <EditText
+        android:id="@+id/police_id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/edittxt_policelogin"
+        android:hint="Enter Police Id."
+        android:textAlignment="center"
+        android:textColorHint="#797985" />
+
+    <EditText
+        android:id="@+id/police_pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/police_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittxt_policelogin"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#797985" />
+
+    <Button
+        android:id="@+id/btn_Police_Login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/police_pass"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/btn_bg_homepage"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
